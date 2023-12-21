@@ -15,7 +15,7 @@ export default [
 		name: "Dashboard",
 		meta: {
 			title: "设置中心",
-			icon: "DashboardOutlined",
+			icon: "UnorderedListOutlined",
 		},
 		component: () => import("~/pages/settingPage/mainSettings.vue"),
 	},
@@ -24,7 +24,7 @@ export default [
 		name: "game",
 		meta: {
 			title: "游戏中心",
-			icon: "FormOutlined",
+			icon: "RocketOutlined",
 		},
 		component: () => import("~/pages/game/mainGame.vue"),
 	},
@@ -33,7 +33,7 @@ export default [
 		name: "skin",
 		meta: {
 			title: "皮肤市场",
-			icon: "LinkOutlined",
+			icon: "ShoppingOutlined",
 		},
 		component: () => import("~/pages/shopping/shoppingmall.vue"),
 	},
@@ -42,7 +42,7 @@ export default [
 		name: "user",
 		meta: {
 			title: "用户中心",
-			icon: "BarsOutlined",
+			icon: "CrownOutlined",
 		},
 		component: () => import("~/pages/userPage/mainUser.vue"),
 	},
