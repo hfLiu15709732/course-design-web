@@ -1,7 +1,14 @@
-# Antdv-admin-pro
+# 人机交互大作业 Web
 
-基于ant-design-vue@4.x版本的后台管理系统模板
+架构：Vue3 + Vite4 + pinia + TS-2020 + ant-design-vue-V4
 
+## 下载依赖
+
+```shell
+
+pnpm install
+
+```
 
 ## 启动项目
 
